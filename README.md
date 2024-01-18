@@ -7,7 +7,7 @@ Modeling transcriptional regulatory networks (TRNs) in response to a perturbatio
 
  
 ## Installation
-CellNeighborEX requires Python version >=3.8, <3.11. We recommend using conda environment to avoid dependency conflicts. The dependencies are listed in requirements.txt.
+MRAG
 ```ruby
 conda create -n myenv python=3.10
 conda activate myenv
