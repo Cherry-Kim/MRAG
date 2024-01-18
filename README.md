@@ -6,17 +6,17 @@ Modeling transcriptional regulatory networks (TRNs) in response to a perturbatio
 ![image](https://github.com/Cherry-Kim/MRAG/assets/64776690/ad8b9b28-5068-42ca-a23e-6e4c60157fff)
 
  
-# Installation
+## Installation
 CellNeighborEX requires Python version >=3.8, <3.11. We recommend using conda environment to avoid dependency conflicts. The dependencies are listed in requirements.txt.
 
-# Create conda environment “myenv”
+## Create conda environment “myenv”
 conda create -n myenv python=3.10
 conda activate myenv
 
 # Navigate into the directory where requirements.txt is located. Then, install dependencies
 pip install -r requirements.txt
 
-# Python API documentation and tutorials
+## Python API documentation and tutorials
 Please see this Read the Docs.
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Cherry-Kim&show_icons=true&theme=radical)
