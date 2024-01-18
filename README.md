@@ -16,6 +16,5 @@ conda activate myenv
 # Navigate into the directory where requirements.txt is located. Then, install dependencies
 pip install -r requirements.txt
 
-# Install CellNeighborEX from PyPI
-pip install CellNeighborEX
-
+# Python API documentation and tutorials
+Please see this Read the Docs.
