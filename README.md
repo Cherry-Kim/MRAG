@@ -19,5 +19,5 @@ CellNeighborEX requires Python version >=3.8, <3.11. We recommend using conda en
 ## Python API documentation and tutorials
 Please see this Read the Docs.
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Cherry-Kim&show_icons=true&theme=radical)
+
 
