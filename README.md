@@ -12,7 +12,11 @@ CellNeighborEX requires Python version >=3.8, <3.11. We recommend using conda en
 conda create -n myenv python=3.10
 conda activate myenv
 '''
-
+```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
 
 Python API documentation and tutorials
 Please see this Read the Docs.
