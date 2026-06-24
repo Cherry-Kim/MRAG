@@ -28,7 +28,7 @@ def Step2_matrix():
     bw_string = ' '.join(bw_files)
 
     cmd = f'computeMatrix reference-point --referencePoint center \
-            -R /BIO1/MRAG/HYK/Plot/CistromeDB/up.bed /BIO1/MRAG/HYK/Plot/CistromeDB/down.bed \
+            -R /CistromeDB/up.bed CistromeDB/down.bed \
             -S {bw_string} \
             -b 3000 -a 3000 \
             --skipZeros \
@@ -57,12 +57,11 @@ def Step3_plot():
 
 
 def Main():
-    bam_DIR = '/BIO1/MRAG/HYK/ATAC/alignments/'
-    files = ['1_pLenti_ONECUT2_OE_1a_merge', '2_pLenti_ONECUT2_OE_1b_merge' ]
-    #files = ['1_pLenti_ONECUT2_OE_1a_merge', '2_pLenti_ONECUT2_OE_1b_merge', '3_pLenti_cMyc_DDK_2a_merge', '4_pLenti_cMyc_DDK_2b_merge']
+    bam_DIR = '/ATAC/alignments/'
+    files = ['1_pLenti_ONECUT2_OE_1a_merge', '2_pLenti_ONECUT2_OE_1b_merge', '3_pLenti_cMyc_DDK_2a_merge', '4_pLenti_cMyc_DDK_2b_merge']
     for sample in files:
         print(sample)
-        #Step1_bw(bam_DIR, sample)
-    #Step2_matrix()
+        Step1_bw(bam_DIR, sample)
+    Step2_matrix()
     Step3_plot()
 Main()
